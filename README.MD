@@ -1,3 +1,3 @@
 # Super-Market
 
-Super-Market is the food delivery app
+Super-Market is the delivery app
