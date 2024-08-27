@@ -1,5 +1,11 @@
+import { Button } from "../../@/components/ui/button";
+
 const Food = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Button />
+    </div>
+  );
 };
 
 export default Food;

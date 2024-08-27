@@ -6,6 +6,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "../../@/components/ui/navigation-menu";
+import { Button } from "../../@/components/ui/button";
 // some thing basic
 // const Navbar = () => {
 //   return (
@@ -31,7 +32,7 @@ import { cn } from "../../@/lib/utils";
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    href: "/foods",
     description:
       "A modal dialog that interrupts the user with important content and expects a response.",
   },
@@ -131,6 +132,7 @@ export function Navbar() {
             </NavigationMenuItem>
             <NavigationMenuItem></NavigationMenuItem>
           </NavigationMenuList>
+          <Button />
         </NavigationMenu>
       </div>
     </div>
