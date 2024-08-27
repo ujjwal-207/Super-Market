@@ -99,7 +99,7 @@ export function Navbar() {
                       </a>
                     </NavigationMenuLink>
                   </li>
-                  <ListItem href="/docs" title="Introduction">
+                  <ListItem href="/about" title="Introduction">
                     Everything you want in your DoorStep.
                   </ListItem>
                   <ListItem href="/docs/installation" title="Services">
@@ -113,7 +113,7 @@ export function Navbar() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuTrigger>
-                <span className="text-lg">Components</span>
+                <span className="text-lg">Contains</span>
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
