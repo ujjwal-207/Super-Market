@@ -46,3 +46,4 @@ const all_product = [
     image: toys,
   },
 ];
+export default all_product;
