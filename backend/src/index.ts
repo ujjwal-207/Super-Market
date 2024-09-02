@@ -1,4 +1,6 @@
 import { dbConnect } from "./dbConnect";
+require("dotenv").config();
+// console.log(process.env.MONGODB_URL);
 
 const express = require("express");
 const mongoose = require("mongoose");
