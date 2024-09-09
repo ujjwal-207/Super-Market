@@ -51,6 +51,18 @@ const Addproduct = () => {
           value={productDetails.new_price}
         />
       </div>
+      <div>
+        <p>Product Picture</p>
+        <input type="file" name="image" onChange={imageHandler} hidden />
+      </div>
+      {/* to do add backend for adding backend */}
+      {/* <button  
+        onClick={() => {
+          Addproduct();
+        }}
+      >
+        Add
+      </button> */}
     </div>
   );
 };
